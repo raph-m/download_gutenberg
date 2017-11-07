@@ -20,7 +20,8 @@ for d in index:
         new_index.append({
             "author": d["author"],
             "title": d["title"],
-            "number_of_lines": lines
+            "number_of_lines": lines,
+            "id": d["id"]
         })
 
 f = open("final_index.json", 'w')
