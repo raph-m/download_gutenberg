@@ -1,0 +1,42 @@
+Notes sur les textes au format .txt:
+En général le livre commence tj la ou on va trouver le titre et le nom de l'auteur. Cependant le titre qui est
+dans le livre ne correspond pas toujours à celui qu'on a (exemple 676.txt) et pareil pour l'auteur. Donc pas
+évident d'identifier ca avec le début du livre. Ensuite on pourrait faire un Elastic Search pour voir à quel
+endroit du texte ça correspond le plus.
+
+Dans 676.txt:
+The Battle of Life by Charles Dickens
+Et dans la base de donnée:
+The Battle of Life. A Love Story
+Dickens, Charles
+
+Du coup si on voulait faire un Elastic Search il faudrait surtout vérifier que c'est toujours ca au début
+du vrai texte et dans ce cas la on serait bons.
+
+Certains textes sont encadrés dans des étoiles (exemple 699.txt):
+Dans ce cas on a:
+***START OF THE PROJECT GUTENBERG EBOOK A CHILD'S HISTORY OF ENGLAND***
+un peu de blabla imprimeur
+le texte
+***END OF THE PROJECT GUTENBERG EBOOK A CHILD'S HISTORY OF ENGLAND***
+En plus on a du texte après et après.
+
+Dans 1113 on a:
+<<THIS ELECTRONIC VERSION OF THE COMPLETE WORKS OF WILLIAM
+SHAKESPEARE IS COPYRIGHT 1990-1993 BY WORLD LIBRARY, INC., AND IS
+PROVIDED BY PROJECT GUTENBERG ETEXT OF CARNEGIE MELLON UNIVERSITY
+WITH PERMISSION.  ELECTRONIC AND MACHINE READABLE COPIES MAY BE
+DISTRIBUTED SO LONG AS SUCH COPIES (1) ARE FOR YOUR OR OTHERS
+PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED
+COMMERCIALLY.  PROHIBITED COMMERCIAL DISTRIBUTION INCLUDES BY ANY
+SERVICE THAT CHARGES FOR DOWNLOAD TIME OR FOR MEMBERSHIP.>>
+le sommaire
+<<THIS ELECTRONIC VERSION OF THE COMPLETE WORKS OF WILLIAM
+SHAKESPEARE IS COPYRIGHT 1990-1993 BY WORLD LIBRARY, INC., AND IS
+PROVIDED BY PROJECT GUTENBERG ETEXT OF CARNEGIE MELLON UNIVERSITY
+WITH PERMISSION.  ELECTRONIC AND MACHINE READABLE COPIES MAY BE
+DISTRIBUTED SO LONG AS SUCH COPIES (1) ARE FOR YOUR OR OTHERS
+PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED
+COMMERCIALLY.  PROHIBITED COMMERCIAL DISTRIBUTION INCLUDES BY ANY
+SERVICE THAT CHARGES FOR DOWNLOAD TIME OR FOR MEMBERSHIP.>>
+le texte
