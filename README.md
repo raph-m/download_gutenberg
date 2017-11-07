@@ -15,4 +15,12 @@ The download file downloads files found in the index.json.
 
 files.txt is the full list of authors for each rdf file found in the epub folder.
 
+selected_authors is the list of authors we wanted to have for our database. This list comes from https://www.theguardian.com/books/2015/aug/17/the-100-best-novels-written-in-english-the-full-list, a list of english novelist given by the Guardian. The most recent authors (after Fitzgerald are not present in the database).
+
+clean.py is a script to truncate the files (so you can get rid of the License at the beginning end at the end). It also
+allows you to delete the files that are considered too small.
+
+the stats.py file helps you to explore the results (count of book for each author, count of lines)
+
+In the file notes you can find my personal notes. At the end you can see the result of the stats.py script/
 

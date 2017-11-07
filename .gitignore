@@ -2,3 +2,5 @@
 /downloaded/
 __pycache__/
 .idea/
+/downloaded_backup/
+/truncated_books/

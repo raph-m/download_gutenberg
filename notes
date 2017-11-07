@@ -40,3 +40,167 @@ PERSONAL USE ONLY, AND (2) ARE NOT DISTRIBUTED OR USED
 COMMERCIALLY.  PROHIBITED COMMERCIAL DISTRIBUTION INCLUDES BY ANY
 SERVICE THAT CHARGES FOR DOWNLOAD TIME OR FOR MEMBERSHIP.>>
 le texte
+
+
+Finalement on décide de couper les 350 premières lignes et d'enlever les 500 dernières.
+
+Niveau téléchargement, en fait on a des soucis de decoding de temps en temps mais c'est peut
+etre parce que l'url n'est pas bonne ! Dans ce cas on va tenter plusieurs format de l'url.
+Il faudrait voir si on fait mieux en gérant ces exceptions. Par exemple la on a 877 fichiers qui fonctionnent
+bien pour 1860 tentatives. Si on fait avec 4 url possibles en fait on a pas vraiment de meilleurs resultats du coup je
+laisse tomber.
+
+Quelques stats finales:
+on se retrouve avec en gros 1600 livres. Sur la cinquantaine de livres vérifiés à la main il n'y en a pas un seul
+qui soit une pièce de théâtre, mais il n'est pas exclu qu'il y en ai quelques unes. Voici le résultat:
+
+AUTEUR
+NOMBRE DE LIVRES
+NOMBRE DE LIGNES (10 MOTS PAR LIGNE A PEU PRÈS)
+Bunyan, John
+7.0
+470075.0
+Defoe, Daniel
+20.0
+189831.0
+Swift, Jonathan
+9.0
+95839.0
+Richardson, Samuel
+11.0
+135521.0
+Fielding, Henry
+9.0
+60811.0
+Sterne, Laurence
+1.0
+19492.0
+Shelley, Mary Wollstonecraft
+5.0
+35429.0
+Peacock, Thomas Love
+3.0
+14968.0
+Poe, Edgar Allan
+1.0
+9525.0
+Disraeli, Benjamin, Earl of Beaconsfield
+1.0
+17626.0
+Brontë, Charlotte
+3.0
+46913.0
+Brontë, Emily
+1.0
+11636.0
+Thackeray, William Makepeace
+9.0
+126903.0
+Dickens, Charles
+20.0
+231065.0
+Hawthorne, Nathaniel
+27.0
+205841.0
+Melville, Herman
+13.0
+141450.0
+Carroll, Lewis
+5.0
+26339.0
+Collins, Wilkie
+11.0
+128781.0
+Alcott, Louisa May
+19.0
+164660.0
+Eliot, George
+11.0
+166740.0
+Trollope, Anthony
+55.0
+998115.0
+Twain, Mark
+20.0
+369316.0
+Stevenson, Robert Louis
+37.0
+362600.0
+Jerome, Jerome K. (Jerome Klapka)
+10.0
+56579.0
+Doyle, Arthur Conan
+27.0
+174658.0
+Wilde, Oscar
+10.0
+60667.0
+Gissing, George
+19.0
+235666.0
+Hardy, Thomas
+15.0
+188586.0
+Crane, Stephen
+14.0
+78652.0
+Stoker, Bram
+6.0
+56261.0
+Conrad, Joseph
+11.0
+79569.0
+Dreiser, Theodore
+5.0
+96615.0
+Kipling, Rudyard
+23.0
+177991.0
+London, Jack
+31.0
+200351.0
+James, Henry
+22.0
+215481.0
+Grahame, Kenneth
+2.0
+9298.0
+Wells, H. G. (Herbert George)
+32.0
+259428.0
+Beerbohm, Max, Sir
+3.0
+10931.0
+Ford, Ford Madox
+4.0
+28609.0
+Buchan, John
+10.0
+79371.0
+Lawrence, D. H. (David Herbert)
+11.0
+119297.0
+Maugham, W. Somerset (William Somerset)
+15.0
+132904.0
+Wharton, Edith
+11.0
+99180.0
+Joyce, James
+1.0
+9494.0
+Lewis, Sinclair
+5.0
+47496.0
+Forster, E. M. (Edward Morgan)
+2.0
+18121.0
+Woolf, Virginia
+1.0
+5811.0
+Fitzgerald, F. Scott (Francis Scott)
+3.0
+35622.0
+Dos Passos, John
+3.0
+11017.0
